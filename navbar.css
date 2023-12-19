@@ -1,0 +1,95 @@
+header{
+	padding: 0px;
+	margin: 0px;
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	border-bottom: solid 1px;
+	width: 100%;
+	padding: 10px;
+	box-shadow: 10px;
+/*	height: 50%;*/
+/*	background-color: beige;*/
+	display: flex;
+	text-align: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin: 0 0.5em;
+}
+
+.search-bar{
+	padding: 10px;
+	margin-bottom: 2.5px;
+	border:solid 0.5px;
+	border-radius: 80px;
+	box-shadow: none;
+}
+
+input[type=text]{
+	border: none;
+	font-size: 0.5em;
+}
+
+.search-bar > button{
+	width: 3em;
+	height: 4em;
+	background-color: white;
+	border:none;
+}
+
+li{
+/*! background-color: red; */
+	font-size: 2.15em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+li:hover{
+	background-color: green;
+}
+
+.hamburger{
+	display: block;
+}
+.hamburger > div{
+	margin: 10px 0;
+	height: 0.15em;
+	background-color: black;
+	width: 1.5em;
+}
+
+.hamburger:hover{
+	background-color: white;
+
+	div{
+		transition: 0.5s ease-in-out;
+	}
+	.bar1{
+		transform: translate(0,11px) rotate(-45deg);
+	}
+	.bar3{
+		transform: translate(0,-11px) rotate(45deg);
+	}
+	.bar2{
+		opacity: 0;
+	}
+}
+
+
+
+a{
+	text-decoration: none;
+	color: red;
+}
+.addTransaction{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: green;
+	float: ;
+}
